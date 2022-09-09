@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [
       "rich-text",
+      "rich-text#secundario",
       "info-card#button-right",
       "info-card#button-left"
     ]
@@ -11,8 +12,19 @@
     "props": { 
       "text": "**Hello, World!**",
       "textAlignment": "CENTER",
-      "textPosition": "RIGHT",
-      "font": "t-heading-1"
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "complette"
+    }
+  },
+
+  "rich-text#secundario": { 
+    "props": { 
+      "text": "**Hello, World! 2**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "complette2"
     }
   },
 
