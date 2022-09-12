@@ -1,7 +1,23 @@
-//CSS tutorial
+//Aula 39 - Criando Componentes Custom
 {
   "store.home": {
     "blocks": [
+      "hello-world"
+    ]
+  },
+
+  "hello-world": {
+    "props": {
+      "title": "Teste Bloco"
+    }
+  }
+}
+
+//CSS tutorial
+/* {
+  "store.home": {
+    "blocks": [
+      "hello-world",
       "rich-text",
       "info-card#clearance",
       "info-card#vintage"
@@ -44,7 +60,7 @@
         "blockClass": "vintage"
     }
 }
-}
+} */
 
 
 //Code before CSS tutorial
